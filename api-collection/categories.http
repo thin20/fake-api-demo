@@ -1,17 +1,14 @@
-# Product
-
-# @name getAllProduct
-GET http://localhost:3000/api/products
-
+@baseUrl = http://localhost:3000/api
+@resourceName = categories
 # Categories
 
 ###
 # @name getAllCategories
-GET http://localhost:3000/api/categories
+GET {{baseUrl}}/{{resourceName}}
 
 ###
 # @name addNewCategory
-POST http://localhost:3000/api/categories
+POST {{baseUrl}}/{{resourceName}}
 Content-Type: application/json
 
 {
@@ -20,7 +17,7 @@ Content-Type: application/json
 
 ###
 # @name updateCategory
-PATCH http://localhost:3000/api/categories/2
+PATCH {{baseUrl}}/{{resourceName}}/2
 Content-Type: application/json
 
 {
@@ -29,4 +26,4 @@ Content-Type: application/json
 
 ###
 # @name deleteCategory
-DELETE http://localhost:3000/api/categories/5
+DELETE {{baseUrl}}/{{resourceName}}/5

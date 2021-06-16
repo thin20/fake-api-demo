@@ -34,7 +34,7 @@ const randomProductList = (categoryList, n) => {
                 categoryId: category.id,
                 name: faker.commerce.productName(),
                 color: faker.commerce.color(),
-                price: faker.commerce.price(),
+                price: Number.parseFloat(faker.commerce.price()),
                 description: faker.commerce.productDescription,
                 createdAt: Date.now(),
                 updatedAt: Date.now(),
