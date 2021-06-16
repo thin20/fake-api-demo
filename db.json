@@ -1,31 +1,232 @@
 {
     "categories": [
         {
-            "id": "b2951f4b-040f-4db5-a234-d62455b3b14b",
-            "name": "Jewelery",
-            "createdAt": 1623839287484,
-            "updatedAt": 1623839287484
+            "id": "f8cffa53-67e7-4b7a-8921-56269d0a6757",
+            "name": "Music",
+            "createdAt": 1623840251207,
+            "updatedAt": 1623840251207
         },
         {
-            "id": "f634a477-9f7f-40da-86bb-9e77a257033f",
-            "name": "Sports",
-            "createdAt": 1623839287484,
-            "updatedAt": 1623839287484
-        },
-        {
-            "id": "20e86b12-0a1d-40da-ae11-f0c7a5649779",
+            "id": "0373fcf5-b7c2-49fc-9a1f-30c60a97cea7",
             "name": "Tools",
-            "createdAt": 1623839287484,
-            "updatedAt": 1623839287484
+            "createdAt": 1623840251207,
+            "updatedAt": 1623840251207
         },
         {
-            "id": "991ae9dc-6062-466f-a99a-055282243e07",
+            "id": "3e923c39-c21e-497e-8896-e899f89a15d8",
+            "name": "Clothing",
+            "createdAt": 1623840251207,
+            "updatedAt": 1623840251207
+        },
+        {
+            "id": "e8e649d0-584b-4b99-bccb-611fc74024c1",
             "name": "Tools",
-            "createdAt": 1623839287484,
-            "updatedAt": 1623839287484
+            "createdAt": 1623840251207,
+            "updatedAt": 1623840251207
         }
     ],
-    "products": [],
+    "products": [
+        {
+            "id": "9cc94d05-ec5a-4056-a971-02e2bea2b378",
+            "categoryId": "f8cffa53-67e7-4b7a-8921-56269d0a6757",
+            "name": "Fantastic Cotton Car",
+            "color": "silver",
+            "price": "876.00",
+            "createdAt": 1623840251207,
+            "updatedAt": 1623840251207,
+            "thumbnailUrl": "http://placeimg.com/400/400"
+        },
+        {
+            "id": "ce432f69-cb8e-49cd-aa6b-6adb0b2d76bf",
+            "categoryId": "f8cffa53-67e7-4b7a-8921-56269d0a6757",
+            "name": "Ergonomic Granite Chips",
+            "color": "maroon",
+            "price": "182.00",
+            "createdAt": 1623840251208,
+            "updatedAt": 1623840251208,
+            "thumbnailUrl": "http://placeimg.com/400/400"
+        },
+        {
+            "id": "d47cbcce-920b-4535-b9ba-53529e472b8a",
+            "categoryId": "f8cffa53-67e7-4b7a-8921-56269d0a6757",
+            "name": "Fantastic Fresh Fish",
+            "color": "grey",
+            "price": "989.00",
+            "createdAt": 1623840251208,
+            "updatedAt": 1623840251208,
+            "thumbnailUrl": "http://placeimg.com/400/400"
+        },
+        {
+            "id": "3c7fd4c4-d51b-40a7-b691-54b9e6ddcc15",
+            "categoryId": "f8cffa53-67e7-4b7a-8921-56269d0a6757",
+            "name": "Rustic Granite Bike",
+            "color": "olive",
+            "price": "684.00",
+            "createdAt": 1623840251208,
+            "updatedAt": 1623840251208,
+            "thumbnailUrl": "http://placeimg.com/400/400"
+        },
+        {
+            "id": "89fceb18-0017-44ae-b8f4-0f27f28851d2",
+            "categoryId": "f8cffa53-67e7-4b7a-8921-56269d0a6757",
+            "name": "Refined Soft Shoes",
+            "color": "green",
+            "price": "234.00",
+            "createdAt": 1623840251208,
+            "updatedAt": 1623840251208,
+            "thumbnailUrl": "http://placeimg.com/400/400"
+        },
+        {
+            "id": "7a94714b-8e92-42f6-8365-8734e3329b69",
+            "categoryId": "0373fcf5-b7c2-49fc-9a1f-30c60a97cea7",
+            "name": "Awesome Soft Gloves",
+            "color": "olive",
+            "price": "116.00",
+            "createdAt": 1623840251208,
+            "updatedAt": 1623840251208,
+            "thumbnailUrl": "http://placeimg.com/400/400"
+        },
+        {
+            "id": "6da18809-1d2c-4a99-ad4c-65b088036441",
+            "categoryId": "0373fcf5-b7c2-49fc-9a1f-30c60a97cea7",
+            "name": "Handmade Cotton Computer",
+            "color": "mint green",
+            "price": "134.00",
+            "createdAt": 1623840251208,
+            "updatedAt": 1623840251208,
+            "thumbnailUrl": "http://placeimg.com/400/400"
+        },
+        {
+            "id": "5b0f5e00-d422-434f-a5f0-bb738b459959",
+            "categoryId": "0373fcf5-b7c2-49fc-9a1f-30c60a97cea7",
+            "name": "Ergonomic Cotton Soap",
+            "color": "orchid",
+            "price": "388.00",
+            "createdAt": 1623840251208,
+            "updatedAt": 1623840251208,
+            "thumbnailUrl": "http://placeimg.com/400/400"
+        },
+        {
+            "id": "cfe8e475-b58f-4928-802d-f93fbcadd701",
+            "categoryId": "0373fcf5-b7c2-49fc-9a1f-30c60a97cea7",
+            "name": "Incredible Frozen Gloves",
+            "color": "red",
+            "price": "288.00",
+            "createdAt": 1623840251208,
+            "updatedAt": 1623840251208,
+            "thumbnailUrl": "http://placeimg.com/400/400"
+        },
+        {
+            "id": "dbf88fb8-35d7-4541-8a2b-4fc8962a92b0",
+            "categoryId": "0373fcf5-b7c2-49fc-9a1f-30c60a97cea7",
+            "name": "Handcrafted Cotton Shirt",
+            "color": "red",
+            "price": "123.00",
+            "createdAt": 1623840251208,
+            "updatedAt": 1623840251208,
+            "thumbnailUrl": "http://placeimg.com/400/400"
+        },
+        {
+            "id": "95d197fe-f830-46a6-9f3d-a47ccea39660",
+            "categoryId": "3e923c39-c21e-497e-8896-e899f89a15d8",
+            "name": "Ergonomic Wooden Mouse",
+            "color": "cyan",
+            "price": "249.00",
+            "createdAt": 1623840251208,
+            "updatedAt": 1623840251208,
+            "thumbnailUrl": "http://placeimg.com/400/400"
+        },
+        {
+            "id": "632fa2d3-9404-4044-859a-4381041b6185",
+            "categoryId": "3e923c39-c21e-497e-8896-e899f89a15d8",
+            "name": "Awesome Soft Chips",
+            "color": "plum",
+            "price": "233.00",
+            "createdAt": 1623840251208,
+            "updatedAt": 1623840251208,
+            "thumbnailUrl": "http://placeimg.com/400/400"
+        },
+        {
+            "id": "abf9dac3-7739-42e6-aee0-8c397b6d00fd",
+            "categoryId": "3e923c39-c21e-497e-8896-e899f89a15d8",
+            "name": "Small Wooden Hat",
+            "color": "ivory",
+            "price": "51.00",
+            "createdAt": 1623840251208,
+            "updatedAt": 1623840251208,
+            "thumbnailUrl": "http://placeimg.com/400/400"
+        },
+        {
+            "id": "2a199faa-1efc-4577-b9e4-938133ffcfb7",
+            "categoryId": "3e923c39-c21e-497e-8896-e899f89a15d8",
+            "name": "Handcrafted Metal Fish",
+            "color": "olive",
+            "price": "509.00",
+            "createdAt": 1623840251209,
+            "updatedAt": 1623840251209,
+            "thumbnailUrl": "http://placeimg.com/400/400"
+        },
+        {
+            "id": "ef779368-4391-491e-8756-aad3b770cd31",
+            "categoryId": "3e923c39-c21e-497e-8896-e899f89a15d8",
+            "name": "Licensed Plastic Hat",
+            "color": "white",
+            "price": "642.00",
+            "createdAt": 1623840251209,
+            "updatedAt": 1623840251209,
+            "thumbnailUrl": "http://placeimg.com/400/400"
+        },
+        {
+            "id": "d7819de7-2979-4f8b-819a-c86f09c10fcd",
+            "categoryId": "e8e649d0-584b-4b99-bccb-611fc74024c1",
+            "name": "Practical Cotton Bike",
+            "color": "grey",
+            "price": "115.00",
+            "createdAt": 1623840251209,
+            "updatedAt": 1623840251209,
+            "thumbnailUrl": "http://placeimg.com/400/400"
+        },
+        {
+            "id": "65cd4209-46ec-4767-a85d-1002596205f3",
+            "categoryId": "e8e649d0-584b-4b99-bccb-611fc74024c1",
+            "name": "Ergonomic Wooden Table",
+            "color": "azure",
+            "price": "717.00",
+            "createdAt": 1623840251209,
+            "updatedAt": 1623840251209,
+            "thumbnailUrl": "http://placeimg.com/400/400"
+        },
+        {
+            "id": "c0ed60e1-60bc-4a61-a0e0-6de2666231ba",
+            "categoryId": "e8e649d0-584b-4b99-bccb-611fc74024c1",
+            "name": "Sleek Plastic Chair",
+            "color": "mint green",
+            "price": "751.00",
+            "createdAt": 1623840251209,
+            "updatedAt": 1623840251209,
+            "thumbnailUrl": "http://placeimg.com/400/400"
+        },
+        {
+            "id": "a881c3be-d3d7-4ba7-b4a1-3c69fe474053",
+            "categoryId": "e8e649d0-584b-4b99-bccb-611fc74024c1",
+            "name": "Generic Soft Salad",
+            "color": "yellow",
+            "price": "405.00",
+            "createdAt": 1623840251209,
+            "updatedAt": 1623840251209,
+            "thumbnailUrl": "http://placeimg.com/400/400"
+        },
+        {
+            "id": "18b97dc4-144d-4f34-9c9f-244302f34f74",
+            "categoryId": "e8e649d0-584b-4b99-bccb-611fc74024c1",
+            "name": "Handmade Steel Hat",
+            "color": "orange",
+            "price": "968.00",
+            "createdAt": 1623840251209,
+            "updatedAt": 1623840251209,
+            "thumbnailUrl": "http://placeimg.com/400/400"
+        }
+    ],
     "profile": {
         "name": "nguyenthin"
     }

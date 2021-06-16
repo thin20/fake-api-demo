@@ -5,7 +5,7 @@ const fs = require('fs');
 faker.locale = 'vi';
 
 const randomCategoryList = (n) => {
-    if (n <= 0) return {};
+    if (n <= 0) return [];
 
     const categoryList = [];
 
@@ -23,13 +23,38 @@ const randomCategoryList = (n) => {
     return categoryList;
 }
 
+const randomProductList = (categoryList, n) => {
+    if (n <= 0) return []
+
+    const productList = [];
+    categoryList.map(category => {
+        return Array.from(new Array(n)).forEach(() => {
+            let product = {
+                id: faker.datatype.uuid(),
+                categoryId: category.id,
+                name: faker.commerce.productName(),
+                color: faker.commerce.color(),
+                price: faker.commerce.price(),
+                description: faker.commerce.productDescription,
+                createdAt: Date.now(),
+                updatedAt: Date.now(),
+                thumbnailUrl: faker.image.imageUrl(400, 400)
+            }
+
+            productList.push(product);
+        })
+    });
+    return productList;
+}
+
 (() => {
     // random data
     const categoryList = randomCategoryList(4);
+    const productList = randomProductList(categoryList, 5);
 
     const db = {
         categories: categoryList,
-        products: [],
+        products: productList,
         profile: {
             name: 'nguyenthin'
         },
