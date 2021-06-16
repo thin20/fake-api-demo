@@ -1,39 +1,32 @@
 {
-  "categories": [
-    {
-      "id": 1,
-      "name": "Máy tính"
-    },
-    {
-      "id": 2,
-      "name": "Cặp sách mới"
-    },
-    {
-      "id": 3,
-      "name": "Quần áo"
-    },
-    {
-      "createdAt": 1623836537341,
-      "updatedAt": 1623836537341,
-      "id": 4,
-      "name": "Cặp sách mới"
+    "categories": [
+        {
+            "id": "b2951f4b-040f-4db5-a234-d62455b3b14b",
+            "name": "Jewelery",
+            "createdAt": 1623839287484,
+            "updatedAt": 1623839287484
+        },
+        {
+            "id": "f634a477-9f7f-40da-86bb-9e77a257033f",
+            "name": "Sports",
+            "createdAt": 1623839287484,
+            "updatedAt": 1623839287484
+        },
+        {
+            "id": "20e86b12-0a1d-40da-ae11-f0c7a5649779",
+            "name": "Tools",
+            "createdAt": 1623839287484,
+            "updatedAt": 1623839287484
+        },
+        {
+            "id": "991ae9dc-6062-466f-a99a-055282243e07",
+            "name": "Tools",
+            "createdAt": 1623839287484,
+            "updatedAt": 1623839287484
+        }
+    ],
+    "products": [],
+    "profile": {
+        "name": "nguyenthin"
     }
-  ],
-  "products": [
-    {
-      "id": 1,
-      "name": "IPhoneX",
-      "salePrice": 15000000,
-      "categoryId": 2
-    },
-    {
-      "id": 2,
-      "name": "Lenovo ideapad",
-      "salePrice": 13000000,
-      "categoryId": 1
-    }
-  ],
-  "profile": {
-    "name": "Thin"
-  }
 }
