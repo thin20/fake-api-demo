@@ -1,0 +1,33 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Máy tính"
+        },
+        {
+            "id": 2,
+            "name": "Điện thoại"
+        },
+        {
+            "id": 3,
+            "name": "Quần áo"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "IPhoneX",
+            "salePrice": 15000000,
+            "categoryId": 2
+        },
+        {
+            "id": 2,
+            "name": "Lenovo ideapad",
+            "salePrice": 13000000,
+            "categoryId": 1
+        }
+    ],
+    "profile": {
+        "name": "Thin"
+    }
+}
