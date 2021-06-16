@@ -1,33 +1,39 @@
 {
-    "categories": [
-        {
-            "id": 1,
-            "name": "Máy tính"
-        },
-        {
-            "id": 2,
-            "name": "Điện thoại"
-        },
-        {
-            "id": 3,
-            "name": "Quần áo"
-        }
-    ],
-    "products": [
-        {
-            "id": 1,
-            "name": "IPhoneX",
-            "salePrice": 15000000,
-            "categoryId": 2
-        },
-        {
-            "id": 2,
-            "name": "Lenovo ideapad",
-            "salePrice": 13000000,
-            "categoryId": 1
-        }
-    ],
-    "profile": {
-        "name": "Thin"
+  "categories": [
+    {
+      "id": 1,
+      "name": "Máy tính"
+    },
+    {
+      "id": 2,
+      "name": "Cặp sách mới"
+    },
+    {
+      "id": 3,
+      "name": "Quần áo"
+    },
+    {
+      "createdAt": 1623836537341,
+      "updatedAt": 1623836537341,
+      "id": 4,
+      "name": "Cặp sách mới"
     }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "IPhoneX",
+      "salePrice": 15000000,
+      "categoryId": 2
+    },
+    {
+      "id": 2,
+      "name": "Lenovo ideapad",
+      "salePrice": 13000000,
+      "categoryId": 1
+    }
+  ],
+  "profile": {
+    "name": "Thin"
+  }
 }

@@ -1,0 +1,31 @@
+# Product
+
+# @name getAllProduct
+GET http://localhost:3000/api/products
+# Categories
+
+###
+# @name getAllCategories
+GET http://localhost:3000/api/categories
+
+###
+# @name addNewCategory
+POST http://localhost:3000/api/categories
+Content-Type: application/json
+
+{
+    "name": "Cặp sách"
+}
+
+###
+# @name updateCategory
+PATCH http://localhost:3000/api/categories/2
+Content-Type: application/json
+
+{
+    "name": "Cặp sách mới"
+}
+
+###
+# @name deleteCategory
+DELETE http://localhost:3000/api/categories/5
